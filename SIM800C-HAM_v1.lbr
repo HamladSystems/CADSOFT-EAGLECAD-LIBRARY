@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SIM800C-MODULE">
+</package>
+<package name="GPS-NEO6MHAMLAD">
+<description>SIM800C-HAMLAD</description>
+<wire x1="-76.825" y1="-23.205" x2="-76.825" y2="3.495" width="0.127" layer="21"/>
+<wire x1="-76.825" y1="3.495" x2="-46.025" y2="3.495" width="0.127" layer="21"/>
+<wire x1="-46.025" y1="-23.205" x2="-46.025" y2="3.495" width="0.127" layer="21"/>
+<wire x1="-76.825" y1="-23.205" x2="-46.025" y2="-23.205" width="0.127" layer="21"/>
+<dimension x1="-76.825" y1="3.495" x2="-46.025" y2="3.495" x3="-61.425" y3="6.195" textsize="1.27" layer="21"/>
+<pad name="VCC" x="-65.975" y="-21.4" drill="1.025" rot="R90"/>
+<pad name="V_TL" x="-63.425" y="-21.4" drill="1.025" rot="R90"/>
+<pad name="GND" x="-60.875" y="-21.425" drill="1.025" shape="square" rot="R90"/>
+<pad name="TXD" x="-58.3" y="-21.425" drill="1.025" rot="R90"/>
+<wire x1="-47.315" y1="-19.825" x2="-47.315" y2="-22.925" width="0.127" layer="21"/>
+<wire x1="-47.315" y1="-22.925" x2="-66.975" y2="-22.925" width="0.127" layer="21"/>
+<wire x1="-66.975" y1="-22.925" x2="-66.975" y2="-19.825" width="0.127" layer="21"/>
+<wire x1="-66.975" y1="-19.825" x2="-47.315" y2="-19.825" width="0.127" layer="21"/>
+<pad name="RXD" x="-55.745" y="-21.425" drill="1.025" rot="R90"/>
+<wire x1="-54.905" y1="-21.425" x2="-54.005" y2="-21.425" width="0.127" layer="21"/>
+<pad name="DTL" x="-53.175" y="-21.445" drill="1.025" rot="R90"/>
+<wire x1="-52.335" y1="-21.445" x2="-51.435" y2="-21.445" width="0.127" layer="21"/>
+<pad name="SPKP" x="-50.605" y="-21.435" drill="1.025" rot="R90"/>
+<wire x1="-49.765" y1="-21.425" x2="-48.865" y2="-21.425" width="0.127" layer="21"/>
+<wire x1="-49.775" y1="-21.435" x2="-48.875" y2="-21.435" width="0.127" layer="21"/>
+<pad name="SPKN" x="-48.045" y="-21.465" drill="1.025" shape="square" rot="R90"/>
+<text x="-58.745" y="-16.575" size="1.016" layer="25" font="vector" rot="R270">TXD</text>
+<text x="-61.525" y="-16.445" size="1.016" layer="25" font="vector" rot="R270">GND</text>
+<text x="-64.355" y="-15.475" size="1.016" layer="25" font="vector" rot="R270">V_TL</text>
+<text x="-66.745" y="-17.085" size="1.016" layer="25" font="vector" rot="R270">5V</text>
+<text x="-56.205" y="-16.495" size="1.016" layer="25" font="vector" rot="R270">RXD</text>
+<text x="-53.655" y="-16.425" size="1.016" layer="25" font="vector" rot="R270">DTL</text>
+<text x="-51.315" y="-15.535" size="1.016" layer="25" font="vector" rot="R270">SPKP</text>
+<text x="-48.805" y="-15.535" size="1.016" layer="25" font="vector" rot="R270">SPKN</text>
+<pad name="VBAT" x="-66.145" y="1.91" drill="1.025" rot="R90"/>
+<pad name="GND2" x="-63.595" y="1.91" drill="1.025" rot="R90"/>
+<pad name="PWR" x="-61.045" y="1.885" drill="1.025" shape="square" rot="R90"/>
+<pad name="GND3" x="-58.47" y="1.885" drill="1.025" rot="R90"/>
+<wire x1="-47.485" y1="3.485" x2="-47.485" y2="0.385" width="0.127" layer="21"/>
+<wire x1="-47.485" y1="0.385" x2="-67.145" y2="0.385" width="0.127" layer="21"/>
+<wire x1="-67.145" y1="0.385" x2="-67.145" y2="3.485" width="0.127" layer="21"/>
+<wire x1="-67.145" y1="3.485" x2="-47.485" y2="3.485" width="0.127" layer="21"/>
+<pad name="VRTC" x="-55.915" y="1.885" drill="1.025" rot="R90"/>
+<wire x1="-55.075" y1="1.885" x2="-54.175" y2="1.885" width="0.127" layer="21"/>
+<pad name="RI" x="-53.345" y="1.865" drill="1.025" rot="R90"/>
+<wire x1="-52.505" y1="1.865" x2="-51.605" y2="1.865" width="0.127" layer="21"/>
+<pad name="MICP" x="-50.775" y="1.875" drill="1.025" rot="R90"/>
+<wire x1="-49.935" y1="1.885" x2="-49.035" y2="1.885" width="0.127" layer="21"/>
+<wire x1="-49.945" y1="1.875" x2="-49.045" y2="1.875" width="0.127" layer="21"/>
+<pad name="MICN" x="-48.215" y="1.845" drill="1.025" shape="square" rot="R90"/>
+<text x="-58.495" y="-0.165" size="1.016" layer="25" font="vector" rot="R270">GND</text>
+<text x="-61.275" y="-0.335" size="1.016" layer="25" font="vector" rot="R270">PWR</text>
+<text x="-64.005" y="-0.165" size="1.016" layer="25" font="vector" rot="R270">GND</text>
+<text x="-66.395" y="-0.075" size="1.016" layer="25" font="vector" rot="R270">VBAT</text>
+<text x="-56.055" y="-0.185" size="1.016" layer="25" font="vector" rot="R270">VRTC</text>
+<text x="-53.405" y="-0.115" size="1.016" layer="25" font="vector" rot="R270">RI</text>
+<text x="-51.065" y="-0.025" size="1.016" layer="25" font="vector" rot="R270">MICP</text>
+<text x="-48.555" y="0.375" size="0.8128" layer="25" font="vector" rot="R270" align="top-left">MICN</text>
+<wire x1="-47.325" y1="-19.805" x2="-47.325" y2="4.195" width="0.127" layer="21"/>
+<wire x1="-67.125" y1="0.395" x2="-67.025" y2="0.395" width="0.127" layer="21"/>
+<rectangle x1="-75.225" y1="-14.805" x2="-71.325" y2="-4.705" layer="25"/>
+<rectangle x1="-76.925" y1="-15.405" x2="-76.125" y2="-6.905" layer="25"/>
+<circle x="-74.925" y="2.095" radius="0.761575" width="0.127" layer="25"/>
+<wire x1="-67.125" y1="-4.105" x2="-49.125" y2="-4.105" width="0.127" layer="25"/>
+<wire x1="-49.125" y1="-4.105" x2="-49.125" y2="-15.005" width="0.127" layer="25"/>
+<wire x1="-49.125" y1="-15.005" x2="-67.125" y2="-15.005" width="0.127" layer="25"/>
+<wire x1="-67.125" y1="-15.005" x2="-67.125" y2="-4.105" width="0.127" layer="25"/>
+<text x="-57.825" y="-8.805" size="1.27" layer="25" font="vector" align="top-center">SIM800C</text>
+<text x="-71.125" y="-9.105" size="1.27" layer="25" font="vector" rot="R90" align="top-center">CAP</text>
+<text x="-76.025" y="-10.405" size="0.6096" layer="25" font="vector" rot="R90" align="top-center">SIM-SLOT</text>
+<pad name="GSM_ANT" x="-70.845" y="1.785" drill="1.025" shape="square" rot="R90"/>
+<pad name="BT_ANT" x="-48.145" y="-2.215" drill="1.025" shape="square" rot="R90"/>
+<text x="-47.955" y="-3.425" size="0.8128" layer="25" font="vector" rot="R270" align="top-left">BT ANT</text>
+<text x="-75.505" y="0.265" size="0.8128" layer="25" font="vector" align="top-left">GSM_ANT</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SIM800C-HAM">
+<description>SIM800C-HAM</description>
+<wire x1="-68.58" y1="12.7" x2="-68.58" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-68.58" y1="-10.16" x2="-35.56" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="-10.16" x2="-35.56" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="12.7" x2="-68.58" y2="12.7" width="0.254" layer="94"/>
+<pin name="VBAT" x="-73.66" y="10.16" length="middle"/>
+<pin name="GND" x="-73.66" y="7.62" length="middle"/>
+<pin name="PWR" x="-73.66" y="5.08" length="middle"/>
+<pin name="GND2" x="-73.66" y="2.54" length="middle"/>
+<pin name="VRTC" x="-73.66" y="0" length="middle"/>
+<pin name="RI" x="-73.66" y="-2.54" length="middle"/>
+<pin name="MICP" x="-73.66" y="-5.08" length="middle"/>
+<pin name="MICN" x="-73.66" y="-7.62" length="middle"/>
+<pin name="VCC" x="-30.48" y="10.16" length="middle" rot="R180"/>
+<pin name="V_TL" x="-30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="GND3" x="-30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="TXD" x="-30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="RXD" x="-30.48" y="0" length="middle" rot="R180"/>
+<pin name="DTR" x="-30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="SPKP" x="-30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="SPKN" x="-30.48" y="-7.62" length="middle" rot="R180"/>
+<circle x="-60.96" y="10.16" radius="0.762" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SIM800C-HAM">
+<description>SIM800C-HAM
+MODULE ONBOARD FOR ARDUINO</description>
+<gates>
+<gate name="G$1" symbol="SIM800C-HAM" x="43.18" y="22.86"/>
+</gates>
+<devices>
+<device name="" package="GPS-NEO6MHAMLAD">
+<connects>
+<connect gate="G$1" pin="DTR" pad="DTL"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="GND3" pad="GND3"/>
+<connect gate="G$1" pin="MICN" pad="MICN"/>
+<connect gate="G$1" pin="MICP" pad="MICP"/>
+<connect gate="G$1" pin="PWR" pad="PWR"/>
+<connect gate="G$1" pin="RI" pad="RI"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="SPKN" pad="SPKN"/>
+<connect gate="G$1" pin="SPKP" pad="SPKP"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VRTC" pad="VRTC"/>
+<connect gate="G$1" pin="V_TL" pad="V_TL"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SIM800C" value="SIM800C-HAM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
