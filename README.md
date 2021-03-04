@@ -1,0 +1,2 @@
+# CADSOFT-EAGLECAD-LIBRARY
+SOME Eagle CAD custom Libraries
